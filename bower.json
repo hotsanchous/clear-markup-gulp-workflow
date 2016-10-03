@@ -1,0 +1,22 @@
+{
+  "name": "one-hour-escape",
+  "description": "one hour escape site markup",
+  "main": "",
+  "authors": [
+    "hotsanchous@gmail.com"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "CanJS": "canjs#^2.3.27",
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7"
+  }
+}

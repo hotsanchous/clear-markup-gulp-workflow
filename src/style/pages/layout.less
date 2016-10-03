@@ -1,0 +1,27 @@
+@import "../_mixins";
+@import "../_vars";
+
+html, body {
+    font-family: @font-family-base;
+    font-weight: @font-weight-regular;
+}
+
+html {
+    position:relative;
+    min-height:100%;
+}
+
+body {
+    height: 100%;
+}
+
+main {
+    padding-bottom: @footer-height + 50px;
+}
+
+footer {
+    .size(100%, @footer-height);
+    position: absolute;
+    background: #f8f8f8;
+    bottom: 0;
+}
