@@ -1,0 +1,8 @@
+# PhpStorm
+.idea
+
+### Bower, Node, Gulp
+node_modules/
+bower_components/
+build/
+
